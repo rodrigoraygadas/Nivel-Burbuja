@@ -1,6 +1,12 @@
-# nivelburbuja
+# Nivel de burbuja
 
-A new Flutter project.
+App diseñada en Flutter y Dart que utiliza la libreria all_sensors para 
+hacer uso del sensor acelerómetro. Si el celular se inclina hacia la derecha la esfera
+se irá hacía la izquierda y viceversa.
+Si el acelerometro detecta que se encuentra posicionado en el ragon de [-1,1] se posicionará 
+automáticamente la imagen en el centro y el color del rectangulo se pintará en verde.
+Si se encuentra fuera de éste rago, es decir, está inclinado el teléfono, el color cambiará a rojo.
+
 
 ## Getting Started
 
